@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Zest-Frontend/static/css/main.76043ce4.chunk.css",
+    "main.js": "/Zest-Frontend/static/js/main.7d1946f5.chunk.js",
+    "main.js.map": "/Zest-Frontend/static/js/main.7d1946f5.chunk.js.map",
+    "runtime-main.js": "/Zest-Frontend/static/js/runtime-main.2f15ae9e.js",
+    "runtime-main.js.map": "/Zest-Frontend/static/js/runtime-main.2f15ae9e.js.map",
+    "static/css/2.c01fb786.chunk.css": "/Zest-Frontend/static/css/2.c01fb786.chunk.css",
+    "static/js/2.8a86930f.chunk.js": "/Zest-Frontend/static/js/2.8a86930f.chunk.js",
+    "static/js/2.8a86930f.chunk.js.map": "/Zest-Frontend/static/js/2.8a86930f.chunk.js.map",
+    "index.html": "/Zest-Frontend/index.html",
+    "static/css/2.c01fb786.chunk.css.map": "/Zest-Frontend/static/css/2.c01fb786.chunk.css.map",
+    "static/css/main.76043ce4.chunk.css.map": "/Zest-Frontend/static/css/main.76043ce4.chunk.css.map",
+    "static/js/2.8a86930f.chunk.js.LICENSE.txt": "/Zest-Frontend/static/js/2.8a86930f.chunk.js.LICENSE.txt",
+    "static/media/semantic.min.css": "/Zest-Frontend/static/media/outline-icons.ddae9b1b.woff",
+    "static/media/getFetch.cjs": "/Zest-Frontend/static/media/getFetch.582d29c4.cjs",
+    "static/media/Home.css": "/Zest-Frontend/static/media/recipe-background-image.01705941.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2f15ae9e.js",
+    "static/css/2.c01fb786.chunk.css",
+    "static/js/2.8a86930f.chunk.js",
+    "static/css/main.76043ce4.chunk.css",
+    "static/js/main.7d1946f5.chunk.js"
+  ]
+}
