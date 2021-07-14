@@ -1,0 +1,90 @@
+
+
+/* DROPDOWN
+============================================ */
+
+.dd-wrapper {
+    display: flex;
+    min-height: 15px;
+    width: 50px;
+    flex-wrap: wrap;
+
+}
+
+.dd-header {
+    background-color: white;
+    border-color: #ccc;
+    border-radius: 4px;
+
+    border-width: 1px;
+
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    width: 100%;
+    padding: 0 20px;
+    font-weight: bold;
+}
+
+.dropdown-container{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    margin-top: 20px;
+    height: 200px;
+    min-width: 200px;
+    border: 1px solid #f1356d;
+    background-color: #ffffff;
+    border-radius: 15px;
+
+}
+
+.dd-list {
+    display: flex;
+    padding: 0;
+    margin-left: 15px;
+    width: 100%;
+    margin-top: 20px;
+    overflow-y: scroll;
+    flex-direction: column;
+}
+
+dd-list-item-container{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    padding: 5px;
+    border: 1px solid #dddddd;
+    cursor: pointer;
+}
+
+.dropdown-search{
+
+    margin-left: 15px;
+    border: 1px solid #f1356d;
+    outline: none;
+    padding: 1px;
+    border-radius: 10px;
+    width: 100px;
+    align-self: flex-end;
+}
+
+.dd-link {
+    cursor: pointer;
+    align-self: flex-start;
+}
+
+.dd-button{
+    background: #f1356d;
+    color: #fff;
+    border: 0;
+    border-radius: 8px;
+    cursor: pointer;
+    align-self: flex-end;
+}
+
+.dd-button:hover{
+    background-color: #666699;
+    cursor: pointer;
+}
+

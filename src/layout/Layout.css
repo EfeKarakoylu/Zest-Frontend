@@ -1,0 +1,134 @@
+
+
+.navbar {
+    background-color: #f1356d;
+    color: #fff;
+    margin-top: 0;
+    height: 50px;
+
+}
+
+.navbar ul {
+    display: flex;
+
+}
+
+.navbar a {
+    color: #fff;
+    padding: 10px;
+    margin: 0 5px;
+}
+
+.navlink{
+    color: #fff;
+    padding: 10px;
+    margin: 0 5px;
+}
+
+.navlink:hover{
+    border-bottom: 2px #fff solid;
+}
+
+.navbar a:hover {
+    border-bottom: 2px #fff solid;
+}
+
+.navbar .flex {
+    justify-content: space-between;
+
+}
+
+.lang-selection{
+    color: white;
+    background-color: var(--primary-color);
+    border: none;
+    outline: none;
+}
+
+
+
+@media (min-width: 768px) {
+    .bottombar-header{
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+
+
+    .navbar{
+        z-index: 100;
+        height: 50px;
+        overflow: hidden;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        overflow: hidden;
+    }
+
+    .navbar ul{
+        display: none;
+    }
+
+    .navbar h1{
+        justify-self: center;
+        align-self: center;
+    }
+
+
+
+    .bottombar-header{
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        z-index: 100;
+    }
+
+    .bottombar{
+        max-width: 968px;
+        display: flex;
+        align-self: center;
+        justify-self: center;
+
+        justify-content: space-between;
+        align-items: center;
+        min-width: 400px;
+        width: auto;
+
+
+    }
+
+    .nav__toggle{
+        cursor: pointer;
+        font-size: 1.1rem;
+        margin-left: 2rem;
+        font-size: 2rem;
+
+    }
+    .nav__toggle:hover{
+        color: var(--secondary-color);
+    }
+
+    .nav-menu{
+        width: 80%;
+        margin-right: 2rem;
+        padding: 2rem 1.5rem 1rem 1rem;
+        box-shadow: 0 -1px 4px rgba(0,0,0,.15);
+        border-radius: 1.5rem 1.5rem 0 0;
+        transition: .3s;
+    }
+}
+
+.bottombar ul{
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.bottombar ul .bottom-link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: x-large;
+
+}
